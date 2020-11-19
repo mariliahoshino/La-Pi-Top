@@ -1,0 +1,51 @@
+
+
+####uncomment if you get no picture on HDMI for a default "safe" mode
+#hdmi_safe=1 ##mexi
+
+disable_overscan=0
+
+##mexi
+### goes off screen, and negative if there is too much border
+overscan_left=0
+overscan_right=0
+overscan_top=0
+overscan_bottom=158 ##237
+
+### uncomment to force a specific HDMI mode (this will force VGA)
+hdmi_group=2 ##mexi aqui
+hdmi_mode=87 ##mexi aqui
+hdmi_cvt=1280 720 60 3 0 0 1 ##mexi
+
+### comment to get jack audio
+hdmi_drive=2
+
+config_hdmi_boost=0
+
+### force hdmi while the tv can take time before sending the signal on the hdmi output
+hdmi_force_hotplug=1
+
+### uncomment for composite PAL
+#sdtv_mode=2
+
+### uncomment for lirc-rpi
+#dtoverlay=lirc-rpi`
+
+### if you plug your tv at the same time as your rpi and that the rpi switches from the hdmi or give a low resolution because tv had no enough time to initialize it
+boot_delay=3
+
+### uncomment if you don't want the rainbow at startup
+disable_splash=1
+
+### Overclock
+gpu_mem_256=128
+gpu_mem_512=256
+gpu_mem_1024=512
+
+avoid_safe_mode=1
+
+kernel=zImage
+
+### NOOBS Auto-generated Settings:
+hdmi_force_hotplug=1
+overscan_scale=1
