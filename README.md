@@ -1,3 +1,7 @@
+
+### <a href="https://github.com/mariliahoshino"> My profile </a> <br>
+
+
 # La-Pi-Top
 How to reuse a display from burned laptop
 
